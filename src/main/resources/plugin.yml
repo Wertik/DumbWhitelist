@@ -1,0 +1,11 @@
+name: DumbWhitelist
+version: 1.0
+author: Wertík
+main: space.devport.wertik.WhitelistPlugin
+commands:
+  dumbwhitelist:
+    aliases:
+      - dw
+      - dwhitelist
+      - dwhite
+      - dumbw
