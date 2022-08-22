@@ -29,11 +29,4 @@ public class PlayerListener implements Listener {
 
         event.disallow(PlayerLoginEvent.Result.KICK_WHITELIST, plugin.getSerializer().deserialize("<red>You're not whitelisted!"));
     }
-
-    /*@EventHandler
-    public void onPlayerJoin(final PlayerJoinEvent event) {
-        Player player = event.getPlayer();
-
-        player.sendMessage(plugin.getSerializer().deserialize("<aqua>Odkaz na mapu světa: <pink><a:https://map.devport.space/>here!</a>"));
-    }*/
 }
